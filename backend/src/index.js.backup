@@ -1,0 +1,606 @@
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config();
+const cache = require('./cache');
+const snapshots = require('./snapshots');
+const https = require('https');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.use(cors());
+app.use(express.json());
+
+// ==================== PUBG API 配置 ====================
+const PUBG_API_BASE = 'https://api.pubg.com';
+const PUBG_API_KEY = process.env.PUBG_API_KEY;
+const STEAM_API_KEY = process.env.STEAM_API_KEY;
+
+if (!PUBG_API_KEY) {
+  console.error('FATAL: PUBG_API_KEY not set in .env');
+  process.exit(1);
+}
+
+const commonHeaders = {
+  'Authorization': `Bearer ${PUBG_API_KEY}`,
+  'Accept': 'application/vnd.api+json'
+};
+
+// ==================== 通用工具 ====================
+async function pubgFetch(url, cacheKey, ttl) {
+  if (cacheKey) {
+    const cached = cache.get(cacheKey);
+    if (cached) return cached;
+  }
+
+  const res = await fetch(url, { headers: commonHeaders });
+
+  if (res.status === 429) {
+    throw new Error('请求过于频繁，请稍后重试 (PUBG API rate limited)');
+  }
+  if (res.status === 503) {
+    throw new Error('PUBG 官方API暂时不可用，请稍后重试');
+  }
+  if (!res.ok) {
+    throw new Error(`PUBG API error: ${res.status} ${res.statusText}`);
+  }
+
+  const data = await res.json();
+  if (cacheKey) cache.set(cacheKey, data, ttl);
+  return data;
+}
+
+async function getPlayerByName(name, platform = 'steam') {
+  const cacheKey = `player:${platform}:${name.toLowerCase()}`;
+  return pubgFetch(
+    `${PUBG_API_BASE}/shards/${platform}/players?filter[playerNames]=${encodeURIComponent(name)}`,
+    cacheKey,
+    120 // 2 min cache for player lookup
+  );
+}
+
+async function getCurrentSeason(platform) {
+  const cacheKey = `seasons:${platform}`;
+  const data = await pubgFetch(
+    `${PUBG_API_BASE}/shards/${platform}/seasons`,
+    cacheKey,
+    3600 // 1 hour cache for seasons list
+  );
+  return data.data.find(s => s.attributes.isCurrentSeason)?.id;
+}
+
+// ==================== API 路由 ====================
+
+// 1. 玩家查询 - 基础信息
+app.get('/api/player/:name', async (req, res) => {
+  try {
+    const platform = req.query.platform || 'steam';
+    const data = await getPlayerByName(req.params.name, platform);
+    res.json({ success: true, data });
+  } catch (err) {
+    console.error(`[player] ${req.params.name}: ${err.message}`);
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 2. 玩家赛季统计（合并查询+赛季）
+app.get('/api/player/:name/season', async (req, res) => {
+  try {
+    const platform = req.query.platform || 'steam';
+    const playerData = await getPlayerByName(req.params.name, platform);
+    const playerId = playerData.data[0]?.id;
+    if (!playerId) return res.status(404).json({ success: false, error: 'Player not found' });
+
+    const currentSeason = await getCurrentSeason(platform);
+
+    const seasonCacheKey = `season:${platform}:${playerId}:${currentSeason}`;
+    const seasonData = await pubgFetch(
+      `${PUBG_API_BASE}/shards/${platform}/players/${playerId}/seasons/${currentSeason}`,
+      seasonCacheKey,
+      600 // 10 min
+    );
+
+    res.json({ success: true, data: {
+      player: playerData.data[0],
+      season: seasonData,
+      seasonId: currentSeason
+    }});
+  } catch (err) {
+    console.error(`[season] ${req.params.name}: ${err.message}`);
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 3. 赛季列表
+app.get('/api/seasons', async (req, res) => {
+  try {
+    const platform = req.query.platform || 'steam';
+    const data = await pubgFetch(
+      `${PUBG_API_BASE}/shards/${platform}/seasons`,
+      `seasons:${platform}`,
+      3600
+    );
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 4. 排行榜
+app.get('/api/leaderboard/:platform/:season/:gameMode', async (req, res) => {
+  try {
+    const { platform, season, gameMode } = req.params;
+    const data = await pubgFetch(
+      `${PUBG_API_BASE}/shards/${platform}/leaderboards/${season}/${gameMode}`,
+      `leaderboard:${platform}:${season}:${gameMode}`,
+      3600 // 1 hour cache for leaderboard
+    );
+
+    // 自动保存快照（异步，不阻塞响应）
+    setImmediate(() => {
+      try {
+        const included = data?.included || [];
+        if (included.length > 0) {
+          snapshots.saveSnapshot(platform, season, gameMode, included);
+        }
+      } catch (e) {
+        console.error(`[snapshot] auto-save error: ${e.message}`);
+      }
+    });
+
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 5. 对局详情
+app.get('/api/match/:matchId', async (req, res) => {
+  try {
+    const platform = req.query.platform || 'steam';
+    const data = await pubgFetch(
+      `${PUBG_API_BASE}/shards/${platform}/matches/${req.params.matchId}`,
+      `match:${platform}:${req.params.matchId}`,
+      3600
+    );
+    res.json({ success: true, data });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 6. 玩家最近对局列表
+app.get('/api/player/:name/matches', async (req, res) => {
+  try {
+    const platform = req.query.platform || 'steam';
+    const playerData = await getPlayerByName(req.params.name, platform);
+    const playerId = playerData.data[0]?.id;
+    if (!playerId) return res.status(404).json({ success: false, error: 'Player not found' });
+
+    // 获取赛季和对局
+    const currentSeason = await getCurrentSeason(platform);
+    const seasonCacheKey = `season:${platform}:${playerId}:${currentSeason}`;
+    const seasonData = await pubgFetch(
+      `${PUBG_API_BASE}/shards/${platform}/players/${playerId}/seasons/${currentSeason}`,
+      seasonCacheKey,
+      600
+    );
+
+    // 取最近的 match IDs
+    const matchIds = seasonData?.data?.relationships?.matches?.data?.slice(0, 20) || [];
+
+    res.json({ success: true, data: {
+      playerId,
+      seasonId: currentSeason,
+      matchIds: matchIds.map(m => m.id)
+    }});
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 7. Steam 封禁查询
+app.get('/api/steam/ban/:steamId', async (req, res) => {
+  try {
+    const url = `https://api.steampowered.com/ISteamUser/GetPlayerBans/v1/?key=${STEAM_API_KEY}&steamids=${req.params.steamId}`;
+    const banRes = await fetch(url);
+    const data = await banRes.json();
+    res.json({ success: true, data: data.players?.[0] || null });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 8. Steam 用户信息
+app.get('/api/steam/user/:steamId', async (req, res) => {
+  try {
+    const url = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${STEAM_API_KEY}&steamids=${req.params.steamId}`;
+    const userRes = await fetch(url);
+    const data = await userRes.json();
+    res.json({ success: true, data: data.response?.players?.[0] || null });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 9. 综合玩家查询（一次返回所有数据）
+app.get('/api/player/:name/full', async (req, res) => {
+  try {
+    const platform = req.query.platform || 'steam';
+    const playerData = await getPlayerByName(req.params.name, platform);
+    const playerId = playerData.data[0]?.id;
+    if (!playerId) return res.status(404).json({ success: false, error: 'Player not found' });
+
+    const currentSeason = await getCurrentSeason(platform);
+
+    const seasonCacheKey = `season:${platform}:${playerId}:${currentSeason}`;
+    const seasonData = await pubgFetch(
+      `${PUBG_API_BASE}/shards/${platform}/players/${playerId}/seasons/${currentSeason}`,
+      seasonCacheKey,
+      600
+    );
+
+    // 尝试通过 PUBG player ID (account.id) 获取 Steam ID 并查封禁信息
+    let steamBan = null;
+    let steamUser = null;
+    try {
+      const steamIdMatch = playerData.data[0]?.relationships?.matches?.data?.[0]?.id;
+      // 有些 PUBG 玩家数据的 attributes.name 可能包含 SteamID
+      const pubgAccountId = playerData.data[0]?.attributes?.name;
+      
+      // 尝试用 Steam ID 搜索（17位数字）
+      if (/^\d{17}$/.test(pubgAccountId) || /^7656\d{13}$/.test(pubgAccountId)) {
+        const [banRes, userRes] = await Promise.all([
+          fetch(`https://api.steampowered.com/ISteamUser/GetPlayerBans/v1/?key=${STEAM_API_KEY}&steamids=${pubgAccountId}`),
+          fetch(`https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${STEAM_API_KEY}&steamids=${pubgAccountId}`)
+        ]);
+        const banJson = await banRes.json();
+        const userJson = await userRes.json();
+        steamBan = banJson.players?.[0] || null;
+        steamUser = userJson.response?.players?.[0] || null;
+      }
+    } catch (e) {
+      // Steam 查询失败不阻塞主流程
+    }
+
+    res.json({ success: true, data: {
+      player: playerData.data[0],
+      season: seasonData,
+      seasonId: currentSeason,
+      matchIds: seasonData?.data?.relationships?.matches?.data?.slice(0, 10).map(m => m.id) || [],
+      steamBan,
+      steamUser
+    }});
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 10. 缓存统计
+app.get('/api/admin/cache', (req, res) => {
+  res.json({ success: true, data: cache.stats() });
+});
+
+// PUBG API status + Steam online players
+app.get('/api/status', async (req, res) => {
+  try {
+    // PUBG API status
+    const pubgStatusRes = await fetch('https://api.pubg.com/status', {
+      headers: { 'Accept': 'application/json' }
+    });
+    const pubgStatusData = await pubgStatusRes.json();
+
+    // Steam PUBG online players (appid 578080)
+    const steamRes = await fetch(
+      `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=578080`
+    );
+    const steamData = await steamRes.json();
+
+    res.json({
+      success: true,
+      data: {
+        pubgApi: pubgStatusData,
+        steamPlayers: steamData.response?.player_count || 0
+      }
+    });
+  } catch (err) {
+    res.json({ success: false, data: { pubgApi: null, steamPlayers: 0 } });
+  }
+});
+
+app.listen(PORT, () => {
+  console.log(`PUBG Query API v2 running on http://localhost:${PORT}`);
+});
+
+// 11. Steam 玩家名搜索（通过 vanity URL）
+app.get('/api/steam/resolve/:name', async (req, res) => {
+  try {
+    const url = `https://api.steampowered.com/ISteamUser/ResolveVanityURL/v1/?key=${STEAM_API_KEY}&vanityurl=${encodeURIComponent(req.params.name)}`;
+    const r = await fetch(url);
+    const d = await r.json();
+    res.json({ success: true, data: d.response });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 12. 健康检查
+app.get('/api/health', (req, res) => {
+  res.json({ success: true, data: { status: 'ok', cache: cache.stats() } });
+});
+
+// ==================== 监控接口 ====================
+
+// 13. 对比快照并查封禁
+app.post('/api/monitoring/compare', async (req, res) => {
+  try {
+    const { platform = 'steam', season, gameMode = 'squad-fpp' } = req.body;
+    if (!season) return res.status(400).json({ success: false, error: 'Missing season' });
+
+    // 获取该组合的所有快照
+    const allSnapshots = snapshots.getSnapshots(platform, season, gameMode);
+    if (allSnapshots.length < 2) {
+      return res.status(404).json({
+        success: false,
+        error: `需要至少 2 个快照才能对比，当前 ${allSnapshots.length} 个`
+      });
+    }
+
+    // 取最近两个间隔 >= 1 小时的快照
+    const latest = snapshots.loadSnapshotByFile(allSnapshots[0].file);
+    let previous = null;
+
+    for (let i = 1; i < allSnapshots.length; i++) {
+      const candidate = snapshots.loadSnapshotByFile(allSnapshots[i].file);
+      const latestTime = new Date(latest.timestamp).getTime();
+      const candidateTime = new Date(candidate.timestamp).getTime();
+      const diffHours = (latestTime - candidateTime) / (1000 * 60 * 60);
+      if (diffHours >= 1) {
+        previous = candidate;
+        break;
+      }
+    }
+
+    if (!previous) {
+      return res.status(404).json({
+        success: false,
+        error: '未找到间隔 >= 1 小时的快照对'
+      });
+    }
+
+    // 对比快照
+    const comparison = snapshots.compareSnapshots(previous, latest);
+
+    // 对每个掉榜玩家查封禁状态
+    const droppedPlayers = await Promise.all(
+      comparison.dropped.map(async (player) => {
+        let banInfo = { isBanned: false, banType: null, banDate: null };
+
+        if (STEAM_API_KEY) {
+          try {
+            const playerName = player.name;
+            if (playerName && /^[a-zA-Z0-9_]+$/.test(playerName)) {
+              try {
+                // 通过 Steam vanity URL 解析玩家名获取 Steam ID
+                const steamResolveUrl = `https://api.steampowered.com/ISteamUser/ResolveVanityURL/v1/?key=${STEAM_API_KEY}&vanityurl=${encodeURIComponent(playerName)}`;
+                const resolveRes = await fetch(steamResolveUrl);
+                const resolveData = await resolveRes.json();
+                const steamId = resolveData?.response?.steamid;
+
+                if (steamId) {
+                  // 查封禁
+                  const banUrl = `https://api.steampowered.com/ISteamUser/GetPlayerBans/v1/?key=${STEAM_API_KEY}&steamids=${steamId}`;
+                  const banRes = await fetch(banUrl);
+                  const banData = await banRes.json();
+                  const ban = banData?.players?.[0];
+
+                  if (ban) {
+                    banInfo.isBanned = ban.VACBanned || ban.NumberOfGameBans > 0;
+                    if (ban.VACBanned) banInfo.banType = 'VAC';
+                    else if (ban.NumberOfGameBans > 0) banInfo.banType = 'Game';
+                    banInfo.banDate = ban.DaysSinceLastBan > 0
+                      ? new Date(Date.now() - ban.DaysSinceLastBan * 86400000).toISOString().split('T')[0]
+                      : null;
+                  }
+                }
+              } catch (e) {
+                // Steam 查询失败不阻塞
+              }
+            }
+          } catch (e) {
+            // 封禁查询失败不阻塞
+          }
+        }
+
+        return {
+          ...player,
+          ...banInfo
+        };
+      })
+    );
+
+    // 过滤掉因 RP 不足正常掉榜的玩家
+    // 获取新榜最低 RP
+    const minRP = latest.players.reduce((min, p) => Math.min(min, p.rankPoints), Infinity);
+
+    const filteredDropped = droppedPlayers.filter(p => {
+      if (p.isBanned) return true;
+      if (p.previousRP <= minRP) return false;
+      return true;
+    });
+
+    res.json({
+      success: true,
+      data: {
+        snapshots: {
+          from: previous.timestamp,
+          to: latest.timestamp
+        },
+        players: filteredDropped,
+        allDropped: droppedPlayers.length,
+        normalDropped: droppedPlayers.length - filteredDropped.length,
+        risen: comparison.risen,
+        rankChanges: comparison.rankChanges
+      }
+    });
+  } catch (err) {
+    console.error(`[monitoring/compare] error: ${err.message}`);
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 14. 获取快照列表
+app.get('/api/snapshots', (req, res) => {
+  try {
+    const { platform, season, gameMode } = req.query;
+    if (!platform || !season || !gameMode) {
+      return res.status(400).json({ success: false, error: 'Missing platform, season, or gameMode' });
+    }
+    const list = snapshots.getSnapshots(platform, season, gameMode);
+    res.json({ success: true, data: list });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 15. 获取监控记录（兼容旧接口）
+app.get('/api/monitoring/logs/:platform', (req, res) => {
+  try {
+    const platform = req.params.platform || 'steam';
+    const dir = require('path').join(__dirname, '..', 'snapshots');
+    const fs = require('fs');
+    if (!fs.existsSync(dir)) return res.json({ success: true, data: [] });
+
+    const files = fs.readdirSync(dir)
+      .filter(f => f.startsWith(platform) && f.endsWith('.json'))
+      .map(f => {
+        const data = JSON.parse(fs.readFileSync(require('path').join(dir, f), 'utf-8'));
+        return {
+          key: data.key || `${data.platform}_${data.season}_${data.gameMode}`,
+          file: f,
+          timestamp: data.timestamp,
+          playerCount: data.players?.length || 0,
+        };
+      })
+      .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+    res.json({ success: true, data: files });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 16. 保存排行榜快照（手动触发，兼容旧接口）
+app.post('/api/monitoring/snapshot', async (req, res) => {
+  try {
+    const { platform = 'steam', season, gameMode = 'squad-fpp', players } = req.body;
+    if (!season || !players) return res.status(400).json({ success: false, error: 'Missing season or players' });
+
+    // 将旧格式 players 转换为 included 格式
+    const included = players.map(p => ({
+      id: p.playerId || p.id,
+      attributes: {
+        name: p.name,
+        stats: { rankPoints: p.rp || p.rankPoints || 0 },
+        rankPoints: p.rp || p.rankPoints || 0,
+        tier: p.tier || ''
+      }
+    }));
+
+    const snapshot = snapshots.saveSnapshot(platform, season, gameMode, included);
+    res.json({ success: true, data: snapshot });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// ==================== 收藏/批量查询接口 ====================
+
+// 使用简单的 JSON 文件存储
+const TRACKED_FILE = require('path').join(__dirname, '..', 'tracked.json');
+
+function getTrackedPlayers() {
+  const fs = require('fs');
+  try {
+    if (fs.existsSync(TRACKED_FILE)) {
+      return JSON.parse(fs.readFileSync(TRACKED_FILE, 'utf-8'));
+    }
+  } catch (e) { /* ignore */ }
+  return [];
+}
+
+function saveTrackedPlayers(players) {
+  const fs = require('fs');
+  fs.writeFileSync(TRACKED_FILE, JSON.stringify(players, null, 2));
+}
+
+// 17. 获取收藏列表
+app.get('/api/tracked', (req, res) => {
+  try {
+    const list = getTrackedPlayers();
+    res.json({ success: true, data: list });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 18. 添加收藏
+app.post('/api/tracked', (req, res) => {
+  try {
+    const { name, platform = 'steam', playerId } = req.body;
+    if (!name) return res.status(400).json({ success: false, error: 'Missing name' });
+
+    const list = getTrackedPlayers();
+    if (list.length >= 50) {
+      return res.status(400).json({ success: false, error: '已达到收藏上限（50个）' });
+    }
+
+    const exists = list.find(p => p.name === name && p.platform === platform);
+    if (exists) return res.json({ success: true, data: exists, message: '已收藏' });
+
+    const entry = { name, platform, playerId, addedAt: Date.now(), lastChecked: null };
+    list.push(entry);
+    saveTrackedPlayers(list);
+    res.json({ success: true, data: entry });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 19. 删除收藏
+app.delete('/api/tracked', (req, res) => {
+  try {
+    const { name, platform = 'steam' } = req.body;
+    const list = getTrackedPlayers();
+    const newList = list.filter(p => !(p.name === name && p.platform === platform));
+    saveTrackedPlayers(newList);
+    res.json({ success: true, data: { removed: list.length - newList.length } });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// 20. 批量刷新收藏
+app.post('/api/tracked/refresh', async (req, res) => {
+  try {
+    const list = getTrackedPlayers();
+    const updated = [];
+
+    for (const p of list) {
+      try {
+        const playerData = await getPlayerByName(p.name, p.platform);
+        const playerId = playerData.data?.[0]?.id;
+        p.playerId = playerId;
+        p.lastChecked = Date.now();
+        updated.push({ name: p.name, status: 'ok', playerId });
+      } catch (e) {
+        updated.push({ name: p.name, status: 'error', error: e.message });
+      }
+    }
+
+    saveTrackedPlayers(list);
+    res.json({ success: true, data: updated });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});

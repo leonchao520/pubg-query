@@ -1,0 +1,3508 @@
+{
+  "platform": "pc-eu",
+  "season": "division.bro.official.pc-2018-41",
+  "gameMode": "squad",
+  "timestamp": "2026-06-12T09:23:34.806Z",
+  "players": [
+    {
+      "id": "account.208105cec47f4e1a827950ecf0b6585a",
+      "name": "Sparqon",
+      "rankPoints": 3505,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8e188ae9de2b467697591c729ec04d1e",
+      "name": "ProjectLaloc_-",
+      "rankPoints": 3498,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dbdb9f02365c471dae18e57c3135733c",
+      "name": "zudya",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.28637c0f4a35469c8fc66b1fe6a86460",
+      "name": "CptLurchi",
+      "rankPoints": 3422,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9b2455fcc22b4e2984ac7a18fc9d8d23",
+      "name": "anttipo",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a2242a875bc748198e0f6e767642661f",
+      "name": "HulluJerbe",
+      "rankPoints": 3465,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.23ec88db4fde4b5eb7280434f6895940",
+      "name": "LIOl1k4s_",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ad55a1538fc24367ad1df03f3d94819e",
+      "name": "Clifton-HMZ",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e4b0da8fe8a54594b03e608db24b82d9",
+      "name": "Neoooox",
+      "rankPoints": 3446,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5fecd68a580f44508080261f09eaa650",
+      "name": "stikas_",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.274cec5d5c874ec0a07110a2d2112655",
+      "name": "BePJIuH",
+      "rankPoints": 4231,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8fe25e22100940ed9211116527da3eb6",
+      "name": "c3yhuns-TTV",
+      "rankPoints": 4221,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7b9d69cbcffe425eb0ec208506c38fb8",
+      "name": "SEPEGG-",
+      "rankPoints": 3498,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3161707afc394af18b70cd5c022df5bd",
+      "name": "AZAD0V",
+      "rankPoints": 4163,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6dd1ae740237455eb6a4d05dc6948598",
+      "name": "AleMao_001",
+      "rankPoints": 3562,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.67ed2fe850714051a173a24cd234bf08",
+      "name": "MrTeegrey",
+      "rankPoints": 3500,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e5445a9690b14a2dbd8a9f194fdc96fd",
+      "name": "WaRRioRNun-_-",
+      "rankPoints": 3464,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cf5ff103f96040c7ac9b8627515328b1",
+      "name": "GalvatroN-_-",
+      "rankPoints": 3437,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1ec994152e874665915c04820f383104",
+      "name": "Mqx69",
+      "rankPoints": 3421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c3a00b06a9eb47b296b823757d4e8353",
+      "name": "H_wat",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9896cdb2220141ce9765edab4be5ce63",
+      "name": "ttv_nevervm0re",
+      "rankPoints": 3518,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.366df058c4de43d2a1e842b342a4bc20",
+      "name": "MoudizzzzTV",
+      "rankPoints": 3489,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9ea5222c4bea493b96a5a110116259c2",
+      "name": "212s",
+      "rankPoints": 3442,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.04745653c02e42dca1c7b320fbba3969",
+      "name": "Mr-ColaVvi",
+      "rankPoints": 3432,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9e6d853db4b44096a5bd9bc5541006b6",
+      "name": "Perfectisss",
+      "rankPoints": 3855,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e86eff84002941758c831d6fe71e9c72",
+      "name": "twitch_c0dbuL",
+      "rankPoints": 3468,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e6f700bec1e741b1880c5ebe81f19f5b",
+      "name": "Yashime",
+      "rankPoints": 3467,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c9bf0dd16385486a9748c8c5232e32ef",
+      "name": "9iLi-_",
+      "rankPoints": 3443,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7cec0e5159e746159ac80f16cd5184df",
+      "name": "MaDouTV_Lxx",
+      "rankPoints": 3442,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ca43ec480a5e434aaa0f8ffbb95f0de7",
+      "name": "1ztttttttttttttt",
+      "rankPoints": 4986,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.581ef3c9770e4d7f94e772f629446425",
+      "name": "Front-TT",
+      "rankPoints": 3672,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8cdbdb22da1a4c71b9b1f8c3bda8ac87",
+      "name": "T_4_N_4_M_I",
+      "rankPoints": 3421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b47163775846430d9b993c8e23261170",
+      "name": "ToANHEQIAO_North",
+      "rankPoints": 4017,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.63a3a6a583084fd8b7e0c7783b4d34db",
+      "name": "SiiMo-_-",
+      "rankPoints": 3770,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7796e7146e014fbab109483373aafcb9",
+      "name": "7Justica-",
+      "rankPoints": 3731,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.26e8785df75d437dbc60d326fa01389b",
+      "name": "JJ--J-JJJ-JIMMY",
+      "rankPoints": 3432,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.80f64211f6534c9b89393eb899cc4d82",
+      "name": "ELKHDAWEEEEEEE",
+      "rankPoints": 3430,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.00b21bcd4c54449e9c077146f78bb18a",
+      "name": "vViperHunterVv",
+      "rankPoints": 3647,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.eb56c8080ca344baafba5561b49cc0d4",
+      "name": "WolfHack_Peter",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.337bdf6d8a9043fa84216c26ab4adedb",
+      "name": "Ham1ltoonTv",
+      "rankPoints": 4609,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a352ccfa11444d9ead958a6d3dbb51a1",
+      "name": "Presenti",
+      "rankPoints": 3683,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.151a970dbae642c6867c89234e006a3e",
+      "name": "69never-fold",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1832b53343c14b519f978b746e219e59",
+      "name": "Artemjkeee-_-",
+      "rankPoints": 3925,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a89acfdcc5f0433dbe584ab495097d80",
+      "name": "WoCao4n11e",
+      "rankPoints": 3838,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ec23134a321e4396905317b5d5c17d68",
+      "name": "ExplosiveBloom",
+      "rankPoints": 3670,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8c4586dcf2f34eb39ae247f84f42b6bd",
+      "name": "FerSaXD",
+      "rankPoints": 3494,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.90dd005af68c403fa800667a32a82f3f",
+      "name": "Sererift",
+      "rankPoints": 3474,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b4b0fd59d2624b2d820d1f097f2530e6",
+      "name": "TopSc0rer",
+      "rankPoints": 3455,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d76a0b1ac9354054b87d82c1d2b31d95",
+      "name": "Dbevs",
+      "rankPoints": 3437,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c1c22f313e384bd2abf20c03096469b8",
+      "name": "SWAGLORDPAPI69",
+      "rankPoints": 3433,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d3ae3d27775e40de9cde7979c7529bac",
+      "name": "ALPHA-SHER",
+      "rankPoints": 3787,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.abf624b7ad57491ca7471deb4eec02d8",
+      "name": "FF_ZORG",
+      "rankPoints": 3589,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.61ced2e5407d4afd8b29265815e4ae1b",
+      "name": "meexr-",
+      "rankPoints": 3505,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9278b2f75d7f4886bc4119a951414fd5",
+      "name": "bartzel",
+      "rankPoints": 3497,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.030f65b1905c45db85a2662d51c379e0",
+      "name": "D1sney1",
+      "rankPoints": 3440,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8fc8f2723f5f4e4f9819885023f1fd53",
+      "name": "Herojar",
+      "rankPoints": 3433,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.354feb2603834190afeeaf1e60d23ef2",
+      "name": "DouBao-X5",
+      "rankPoints": 3415,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b4d9c8f5d1174eb0aca187127a2a14dc",
+      "name": "bilibili_baihui",
+      "rankPoints": 4728,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e6acfebcca9c4a86a62937edeed343c3",
+      "name": "delkaz",
+      "rankPoints": 4004,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4c918b8c8cbc407c8a83564139452912",
+      "name": "JUST-KILL-YOUDAY",
+      "rankPoints": 3452,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.74a425fef68b44e9b0184374a7a85a10",
+      "name": "BP_Oninho",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.24207cbe566a424591c074c4122b688e",
+      "name": "Scutra",
+      "rankPoints": 4347,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.57793a8b3f604fe98aba26a1a3773786",
+      "name": "YNWA-_-Heino",
+      "rankPoints": 3750,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ee010b4a8dab4772826af4b1a0aa5116",
+      "name": "Li2c-_",
+      "rankPoints": 3462,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a5e374ac87af4dad9142dc207af499d7",
+      "name": "barbazisis",
+      "rankPoints": 3430,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7728d5e5aec64218a68f911a98b5f1f3",
+      "name": "HenriHenrisson",
+      "rankPoints": 3425,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b2f73629c0984b30800601d557e490c4",
+      "name": "DuduGladiador",
+      "rankPoints": 3627,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9eaca17206c64445993057b8a64bb09b",
+      "name": "N-O_Z-I_N-A_N",
+      "rankPoints": 3460,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f5453f361e2a4a7182448d5bd4a98a93",
+      "name": "did_Mykhailo",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.485b5a625dc84266a0986875b2fcbe3b",
+      "name": "MeTaFoRiNiO-_-",
+      "rankPoints": 3416,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b4d9bb48ddf04c69ae9f79e13b98b66d",
+      "name": "Zielki-Axe",
+      "rankPoints": 3825,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f991cd475778482790c1c86fbad17436",
+      "name": "7-ElevenK",
+      "rankPoints": 3654,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.67bb80bea645435f8f1623451577de4a",
+      "name": "zipxxr",
+      "rankPoints": 3431,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ef9fde6010094fec8e6ef4874d100244",
+      "name": "Kraanlol",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e8f6a0a4b7924051be013c197798540e",
+      "name": "PilsenCry",
+      "rankPoints": 3475,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.124b3754e9c8455da032acc97c838910",
+      "name": "Shinobi001",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ded6ceb33271492287757913bc594b80",
+      "name": "SayaZera",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5ad26a7fe34e4c178c679270113fbc58",
+      "name": "LoTTo_-Clasik",
+      "rankPoints": 3415,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0fb0870b2eda485bae4ac37314451a01",
+      "name": "VinhSiuLongAn",
+      "rankPoints": 4390,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.49c5cab3aea54564b7c9079364a8c2a4",
+      "name": "Xxs_Crow",
+      "rankPoints": 4148,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.df7439b7d15840a3a67efefdb47891dd",
+      "name": "Thimbe",
+      "rankPoints": 3614,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6b6dfda45b2c4240bb4da544782741f3",
+      "name": "Tenzay_-",
+      "rankPoints": 3478,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1350d30c207e4d54850dd2f52898d1c4",
+      "name": "soooundmind",
+      "rankPoints": 3425,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2e6caa264601401d9285a885158e4621",
+      "name": "tokushima666",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e377b9d05b4344e599f94c649220581b",
+      "name": "Helmetremover",
+      "rankPoints": 3597,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.965584fd0c644cd29cdf1c8651588d33",
+      "name": "THEESOULL",
+      "rankPoints": 3524,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c90f7b7cce624bdcadf820ed8d311671",
+      "name": "FANTA-Orange_",
+      "rankPoints": 3437,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.69036ef0803c4823975f2e55769ae636",
+      "name": "AUG_227",
+      "rankPoints": 3416,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ae3bbdf9eb6b4a78a1f004d6cffd9748",
+      "name": "A-F-A-FzZ",
+      "rankPoints": 3754,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a9853992445a4c8d82162aa8fbab5df1",
+      "name": "dONTrustM3",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3049d66a326249419ae47954ecc0c66d",
+      "name": "MORIIKX",
+      "rankPoints": 4554,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f7776e61406248bbba3bbf28b1e25ec3",
+      "name": "Bremixo",
+      "rankPoints": 3513,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c730c79dbb764ae692f5ff246af9dd09",
+      "name": "MyrtIe",
+      "rankPoints": 3475,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.31d2b3331f4b4366a393d883ebef3015",
+      "name": "MAKCIMENUC",
+      "rankPoints": 3461,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0f279d6fe0ab4f7bb34968acb033089d",
+      "name": "seewyy",
+      "rankPoints": 4014,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.29fcd9c7721a40f38020830e716a635d",
+      "name": "projectzwx",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f89af6bb0c7e47a383ca2fae64cdeb18",
+      "name": "cauan7zin",
+      "rankPoints": 5071,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.38f54a975fd04014b7d8e70a3ce5b98f",
+      "name": "KICKmarcelek",
+      "rankPoints": 3865,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.601a8c4fdbf44d8fb8067796b825cb71",
+      "name": "CovexGG",
+      "rankPoints": 3747,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e734eb1f473a4496a2a6eba83229edf8",
+      "name": "nn2s_",
+      "rankPoints": 3523,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0345a497e888493bbc49f2424daf792c",
+      "name": "ChinaNumber20nob",
+      "rankPoints": 4318,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e1bed3ac977346ee9b06084db9fe041d",
+      "name": "souNzzz",
+      "rankPoints": 3681,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2e0f19de54d14dbcbca06812534e9e0b",
+      "name": "nothappy753",
+      "rankPoints": 3589,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bb467d54b51f4deeae412892a7b872e8",
+      "name": "Z3R3F-",
+      "rankPoints": 3508,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1a08c86960a94eee98a80f02e134c417",
+      "name": "Unconcionable",
+      "rankPoints": 3488,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.de59e5a43f144897a30bf67bcac86784",
+      "name": "IMROLYY-_-",
+      "rankPoints": 3428,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.fa636aac3bbe4863b7e588ed78831503",
+      "name": "SlawdorZ",
+      "rankPoints": 3423,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1eb9d70ff7ee4a49987e10e8b8cf4d88",
+      "name": "Kazeshinii-",
+      "rankPoints": 4316,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cff97cef642d4556b2bc9d9c8647db90",
+      "name": "YouDriveMeCrazy_",
+      "rankPoints": 4090,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.964a9000629a4ded910f6457b65eece5",
+      "name": "Roman_R-",
+      "rankPoints": 3885,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b33a33f6d6ea48f98a43c01c152f3176",
+      "name": "BobrittoBandito",
+      "rankPoints": 3432,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8370ec08b0674cb2b86704c660cabfa1",
+      "name": "Pen7hrox-",
+      "rankPoints": 3412,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.46d6a498c073426faf6909245db4f2d7",
+      "name": "ParlamenT--",
+      "rankPoints": 3509,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e05395fcbb06419d90100955b9b7d258",
+      "name": "Tbei_Aurora",
+      "rankPoints": 3449,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a98cf059959e46169cf6759d9b161751",
+      "name": "DGG_XiaoNan30CM",
+      "rankPoints": 4741,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.aeaa0befd73c489a9fd0f90559190fd8",
+      "name": "Row_n",
+      "rankPoints": 3471,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0dc84d4df4034556823e72dca4d97b58",
+      "name": "YoUFaTher-Old-G",
+      "rankPoints": 3567,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6abde38ee5d541a3b89c8bf2272106b6",
+      "name": "Sniezka",
+      "rankPoints": 3527,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b7635663f6d04c49a9ecae0b0588e46d",
+      "name": "Layosh",
+      "rankPoints": 3424,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.27670344688d4c928a636b04fcd8eb2b",
+      "name": "Wuz_my_name",
+      "rankPoints": 3467,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.833fe00afa204e85b7f9854b2f8c485e",
+      "name": "IRAQ__HUNTER",
+      "rankPoints": 3432,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ee1e80837a5a4e0db645d328e3f6d868",
+      "name": "songxuanW",
+      "rankPoints": 3430,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1492c34d5f054fe5b06bda7781cf28d9",
+      "name": "VeRanilllllo_",
+      "rankPoints": 4270,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5106b8d9fb844813b56d70ed35208f5d",
+      "name": "NH_Bigt1ger",
+      "rankPoints": 3483,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.56f97c3c33d24cada121b5eb1acbbbf5",
+      "name": "magic_pineapple",
+      "rankPoints": 3465,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d8531f7a67d44be78c50b6553f93567b",
+      "name": "Asimov_v",
+      "rankPoints": 3458,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2eb1a24799c24f029cd2069ef6863d53",
+      "name": "fanafps",
+      "rankPoints": 4353,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3889cc23edd94a929fd1ce438ca15003",
+      "name": "h3yw8",
+      "rankPoints": 4074,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.12451205a4cb4012ba29f0707f405fcf",
+      "name": "i-1-t-h-h",
+      "rankPoints": 3817,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a4a678e88e7e49c382cb192ccde5a2cd",
+      "name": "YoungSavageGR",
+      "rankPoints": 3527,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8c2a1c7b256444bcb1fde0cf7e6c3f8f",
+      "name": "d3vill",
+      "rankPoints": 3462,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a7967bd674ed494499463eb0eadde39e",
+      "name": "Wang-chashao",
+      "rankPoints": 4117,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6eb5ce2a79394488ab13c9a04b979982",
+      "name": "Nakat0m",
+      "rankPoints": 4421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6fb426dfa78047dfbbfdc9d9d0ef36c6",
+      "name": "guizeraa237",
+      "rankPoints": 3549,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.08a80de3f3924ca79ef1dc5c589b7611",
+      "name": "PainXQ",
+      "rankPoints": 3461,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0a43290eabeb41f19c8ca9b3afc79020",
+      "name": "Steyz",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bd5766b82e0f480e97e2c42bb4bbef73",
+      "name": "Scorpios-_-",
+      "rankPoints": 3722,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5cd8a14da880425a90a8c02061f08d6e",
+      "name": "KeedZ-",
+      "rankPoints": 3533,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.757246ee75754614b54946fdb59c5519",
+      "name": "XOXO_JHAROD_UWU",
+      "rankPoints": 3498,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e6b021f3dbc34bcba778d6b6908982ca",
+      "name": "Soizera",
+      "rankPoints": 3463,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4d6f2fca1f0f4bc4858c214c9e24aa03",
+      "name": "M0BZZ",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ef56522e21ed430b90bea2d7d1c35205",
+      "name": "17_MangGuoLi",
+      "rankPoints": 3537,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b4890e1f2d6444af866c1577e4115635",
+      "name": "GGBEK-",
+      "rankPoints": 3493,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b8bc456f696946d98c329ba84c678442",
+      "name": "mertvoyetelo",
+      "rankPoints": 4313,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.81a3fd7cc00b434086cdc2b9ec9d47ed",
+      "name": "A_E_866",
+      "rankPoints": 3894,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d70fa1d547d14b2b81d1fecfeca013ae",
+      "name": "Sisnatha-",
+      "rankPoints": 3841,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3d2d1b2adb9b4d7599aa97da6a4f5482",
+      "name": "GRBadBoyy2k",
+      "rankPoints": 3559,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.278037cd78664e8d9488be70fdfbc45f",
+      "name": "Mihawk__X",
+      "rankPoints": 3514,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.45d378d2a5fb4b38aa31a55fe233a9ab",
+      "name": "OrtalamaZarar",
+      "rankPoints": 3494,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.69025f395966409190e2baf39a29c1e7",
+      "name": "EyupEnsar_",
+      "rankPoints": 3482,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8a69b671284d480c8805b65741105943",
+      "name": "BoQtik",
+      "rankPoints": 3431,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8d2231e7ff48494194be921066774545",
+      "name": "4justica-",
+      "rankPoints": 4560,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d8ef6c0370f84fd390fc93e79175933f",
+      "name": "Tny7_",
+      "rankPoints": 4265,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ac738a452dfc420daa3a6f8524bad54b",
+      "name": "MIRNYXA",
+      "rankPoints": 3815,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4f5d5bf7934843028e84636bb79c5645",
+      "name": "ALV3S-_-",
+      "rankPoints": 3799,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.33169de8cc744e2c9d46f79e36fee063",
+      "name": "Smile-_-ChaoGe",
+      "rankPoints": 3701,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1cc723d130dd4a74b3aef1fe4fe620dd",
+      "name": "XMing_Txue",
+      "rankPoints": 3460,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4de73798f2ac4195937e3d6511413ee1",
+      "name": "HGGkissCGG",
+      "rankPoints": 3431,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dd299e2e44c94734bc41c4205e87b47c",
+      "name": "Nois3one",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.25c90ae9b8b947cbacbf5a12730614a1",
+      "name": "DA_Cloudy-",
+      "rankPoints": 3478,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.48e301bcf1f346ea937d0010a769d403",
+      "name": "villu",
+      "rankPoints": 3432,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c5b78f484caf4e808e00adc6bc212903",
+      "name": "Bay-j",
+      "rankPoints": 3616,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.314b69f5dbb34d4bb8b6bc8cc080becc",
+      "name": "Exciting1337",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.587207fbc2004413864ae4b18d643c74",
+      "name": "RySkiVo",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.289109fb3b8a44ff95eaee9db468e792",
+      "name": "IXHunterXI",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8a9699051b174ae28152f525759688db",
+      "name": "watan1sy",
+      "rankPoints": 4292,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d6d060c2b89c487b93730ca572e83dce",
+      "name": "FakeDonate",
+      "rankPoints": 3520,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c9752cfdf22546f38f8900855a6232e0",
+      "name": "peixotoQvQ",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9179572e601b423d96835f63ca547121",
+      "name": "OnlyPans-SuNnY",
+      "rankPoints": 3440,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5440e729b83641a6b4aa632a8cc2e3f8",
+      "name": "Kurumbus",
+      "rankPoints": 3440,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.405d420bac5b49dcae59a369f1f8f75e",
+      "name": "O1yQ",
+      "rankPoints": 4300,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f12f46988a444f7a8c2f1e9b8f9a57c0",
+      "name": "ONNOOOO",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b11fd40b037947a0bab6f548c9177bf6",
+      "name": "Reaper_FPS",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1f7f7ae7f4734876b3cad40d4676ca2e",
+      "name": "3scan0r",
+      "rankPoints": 3415,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9043fc72bd664859952016f346b8cb68",
+      "name": "Da--Baicai",
+      "rankPoints": 3464,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6ebb3ffd98b64bcd8a2a123e80b546b1",
+      "name": "t0biramaa",
+      "rankPoints": 3431,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.70e513acfe3c421da96aadd15786f109",
+      "name": "PIKISSSSS",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bb05fef304c542439edbc3605507ff38",
+      "name": "lxee_",
+      "rankPoints": 3422,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5eee056ec4884b8383ee321c9aa78fdd",
+      "name": "ICE_Legendary-_",
+      "rankPoints": 3997,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0d90006899934bf889d0bfc3535d6b21",
+      "name": "NorthStradbroke",
+      "rankPoints": 3925,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3e1af1b8aa6645d491f4f6814da8a00a",
+      "name": "Zetti-VZ",
+      "rankPoints": 3688,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.247114e102c74ad3865cb8f734602235",
+      "name": "Bay-N",
+      "rankPoints": 3504,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f6b8f03bc1fb401da2f49637b9e149e0",
+      "name": "naixGADZA",
+      "rankPoints": 3465,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5a181477bae24d3aac1bfebd8fb07d27",
+      "name": "SHINING-TV",
+      "rankPoints": 3464,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1ceafe0aea51403c838e2da95303e4ab",
+      "name": "rdmn999",
+      "rankPoints": 3488,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6b94e238ecf04bcf82cf62f09598139c",
+      "name": "HussTheAssassin",
+      "rankPoints": 3467,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2dac5f2ead914fec8bb6b4a466d0f163",
+      "name": "BzeHerYerTRABZON",
+      "rankPoints": 4297,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dc9782078e734ffd9a1ac8967aceb180",
+      "name": "ab7738909",
+      "rankPoints": 3811,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.036df33a2975404691ab9491e9eb8e94",
+      "name": "BJK_ZaZa",
+      "rankPoints": 3696,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1c9f2d62aa0d4bf289206b878b9dfe85",
+      "name": "conceui",
+      "rankPoints": 3653,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c0174f598514414290aff07a9fa88732",
+      "name": "Fibonatschi",
+      "rankPoints": 3509,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9ac587858a1e4557b92fef8dc2a8cb47",
+      "name": "itsmepasha",
+      "rankPoints": 3494,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6914346fdd9249f5bf854d1b56bad5ff",
+      "name": "Venutys",
+      "rankPoints": 3474,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.796da1d2d21e4719802e9af0400fcb42",
+      "name": "PREDATOR-BOY69",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f6490bce961b45ff8d90dcbcc5cb805b",
+      "name": "SnowIntoMyEyes",
+      "rankPoints": 3501,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5e614f152ec1408aa57ce133c8b0e08c",
+      "name": "GHARI-B_",
+      "rankPoints": 3448,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c6de69272f5f4a9daf5c02713f5ea284",
+      "name": "GOKU_X_X",
+      "rankPoints": 3422,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e4cce855c78a437fa107259cf33e0a93",
+      "name": "SaNLiX",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3fea1e6d84804a53a5f1dee77f7ee419",
+      "name": "xplicittt",
+      "rankPoints": 3415,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5fe863139c2443e697385d36653abd2a",
+      "name": "DeRiiNDaRBe_",
+      "rankPoints": 3452,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8836fab0676041da9d88bbddf2e54365",
+      "name": "NG_Pekkeli",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.39f7300aa33a472cbad2328b8dc8deb8",
+      "name": "Top-ixx",
+      "rankPoints": 4326,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.fa86cb71a52b4fd588ecd8c5b5ec8003",
+      "name": "kR1SHY",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9dcc3857a4b649b9b71433ef55462782",
+      "name": "ShenYiKeSha-1V5",
+      "rankPoints": 4327,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d210f282ecd143679b530dff32b10900",
+      "name": "CBclub_Yeshum1an",
+      "rankPoints": 3528,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c7c79cb33af74ece826c34e068fbaf0d",
+      "name": "CthunX",
+      "rankPoints": 3458,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0470fdb0dd634068ab1fd37d1bcd7239",
+      "name": "xingjuan_-",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6dba5598a9124b7c82ead274c0d6a4e4",
+      "name": "Grunt_le19",
+      "rankPoints": 5136,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7b88970d586c4cee8c6753102ec61077",
+      "name": "YNWA-_-Miller",
+      "rankPoints": 3579,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a457ff6db2b545119ad4bbb9182d92c7",
+      "name": "H4RR3-_-",
+      "rankPoints": 3456,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c601da29e83443288e60c28116cac7e0",
+      "name": "Arquet",
+      "rankPoints": 3445,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.72c1b526ec394d05a98895b050d60a80",
+      "name": "xA0___l1llI1lI_-",
+      "rankPoints": 4283,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6e7239d9c48f49a0add4a2fc47437a85",
+      "name": "NS96-",
+      "rankPoints": 3474,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9d58485194954ef390663a641b634272",
+      "name": "Tegmara",
+      "rankPoints": 3454,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7ba5f2ae7a5e4d8ba4a0df90bc6fda13",
+      "name": "Toks1k-_-",
+      "rankPoints": 3445,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.635092bb6dac4cabb20fe1a90dfd14ae",
+      "name": "lSENZUl",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.173b1fa9f4c349509c809c8ad94abd24",
+      "name": "thnx-",
+      "rankPoints": 3422,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.25e985175d404f088d1c5078b0d6f60d",
+      "name": "XOR-1-",
+      "rankPoints": 4215,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.db1d33b4bd354755b01501290bfe2903",
+      "name": "ICE_Legendary_-",
+      "rankPoints": 3550,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3270aa87db98436cb012c5d6c75397b1",
+      "name": "Kirin-Ichiban",
+      "rankPoints": 3532,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e27eb173c3b145f8b43d9a21233f89e8",
+      "name": "HN-QiangGe",
+      "rankPoints": 3479,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.37a9dd21d888412b9803354b3296e895",
+      "name": "molodnestar",
+      "rankPoints": 3471,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9639a6214ecb4697937d6c8c115a8d1a",
+      "name": "THNXXXX",
+      "rankPoints": 3450,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.77aad3cf9b18453ea9556a57bc2698b0",
+      "name": "ZenJin-_",
+      "rankPoints": 3440,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a0c1556459474341bf29b77850ca5116",
+      "name": "1l_BRUTAL1TY",
+      "rankPoints": 3701,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.de24b7b76ca845c2be0808c04e2877c8",
+      "name": "D1GGY_FPS",
+      "rankPoints": 3488,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.21e000513d3b4f9896992fdab3fee73a",
+      "name": "IChamurAbimI",
+      "rankPoints": 3445,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6c0bb629567f457caa719939b9948567",
+      "name": "Huiya1123",
+      "rankPoints": 3424,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c4d135b257a84f56813b881359769b32",
+      "name": "R30666",
+      "rankPoints": 3551,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7ae0f823f3dc422ca3ca14daef6f2142",
+      "name": "nucr00",
+      "rankPoints": 3468,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ea01a1972550430f8a0de8d8b3cb64f3",
+      "name": "KOLT1",
+      "rankPoints": 3811,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.511b3c8aacad49be84e5977e9d9db9a5",
+      "name": "Sun99i",
+      "rankPoints": 3493,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1c878e95691f4d7abc21f668e0ad4fb9",
+      "name": "ToAo_Aka-_",
+      "rankPoints": 3424,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a4749adbd3cb48f5ad1c6b0f17618749",
+      "name": "dekaci",
+      "rankPoints": 3908,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ebadfd53b90e474693cd21f36a9c4e55",
+      "name": "010086112",
+      "rankPoints": 3856,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f387f15cd3984900a24c150fb2bb0e6f",
+      "name": "XXxSalah911xXX",
+      "rankPoints": 3451,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.94a4beac99c64762b33f4d479f26f10a",
+      "name": "TianBaby-_-",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d27f207666254733925489b3dab33e08",
+      "name": "moonl3ss",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.66078ddc73824166b9fafc88b638bcb2",
+      "name": "Coc4iNeee_",
+      "rankPoints": 3688,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8d5b4f670120478d9a276d2f6bdc4e30",
+      "name": "highegoplayer237",
+      "rankPoints": 3516,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.70d223ddfa87454797a758a2e9728a48",
+      "name": "RedBull_Danny",
+      "rankPoints": 3484,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.633bbec22dd84a53bc98af778dc82a98",
+      "name": "ToAo_ZhuFeiFei_",
+      "rankPoints": 3455,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e06e870687124d149cf1241d77fb95db",
+      "name": "Tatasis_",
+      "rankPoints": 3420,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.98d25dbd4d404a7989d51c341be534f1",
+      "name": "Michae1_o_O",
+      "rankPoints": 3637,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.58c036757e7342d0a8cf398834e388c4",
+      "name": "THEJAMBAMAN",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.62d27f7843e445b7b3dff93c399327e0",
+      "name": "TrezZi",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.91d97e649e174c708769c87951ed9f8c",
+      "name": "BAN-OCHKA",
+      "rankPoints": 3436,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f5e635e9a5aa4d75b5ba8a0334b932ef",
+      "name": "zwxxxxxxdd",
+      "rankPoints": 3421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cdb27e3e60d44b69badef2927255d81f",
+      "name": "Mex1co-",
+      "rankPoints": 3518,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2c43027ff0944b74a37d6a4b7a91a730",
+      "name": "Youaremylife_55",
+      "rankPoints": 3512,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a886a5d0f93242058407656e42d4ef57",
+      "name": "NJ11-",
+      "rankPoints": 3453,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f40f9e0ece2f432b8ff201380025f556",
+      "name": "ROXBOT",
+      "rankPoints": 3551,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f7e3c2056f1746c0a491fe4ca86f8c84",
+      "name": "SKUIJKE",
+      "rankPoints": 3471,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5fe7c562caf84a2b9a004a4adafd3e95",
+      "name": "Nikit4ta",
+      "rankPoints": 3458,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.27f901b882e1449a91de4efaa7c8aa1f",
+      "name": "MURAT_1903",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7529c63d69c64144b9351d37f4684729",
+      "name": "Meetyou-ML",
+      "rankPoints": 4316,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f18c09d2b74e4677b1df40b9e8cba2f3",
+      "name": "15boddDDDD_",
+      "rankPoints": 3644,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.25f51c4d1ac34300ad10b48d633ac095",
+      "name": "BuBu-ILVY",
+      "rankPoints": 3530,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.912c3e5d19ef44848267a18603101481",
+      "name": "milkmilk_-",
+      "rankPoints": 3436,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1cf770e3deed45948b16119b6874e5c4",
+      "name": "Leqead",
+      "rankPoints": 3434,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2d798f7d8418466880238d2f556c4496",
+      "name": "Masidex",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c83c2df9b9624f72845dc5d30a7fa0f4",
+      "name": "XL-BuWanG",
+      "rankPoints": 3412,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3cafeb597a584bf994484995adb25394",
+      "name": "AVD_s_Donbasa",
+      "rankPoints": 3411,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.06dc25fd48434456b4dea38f7cd5d442",
+      "name": "TSIX_mzaq",
+      "rankPoints": 3990,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ea5f69a9888545b0978b2b5304b7dbf5",
+      "name": "superstarvibes",
+      "rankPoints": 3700,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8b0f8dcf1b204285b26be661887bff51",
+      "name": "Arturi4_",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c06a8f25b86a4ad59efc14152e0dbead",
+      "name": "Ninaaaa_",
+      "rankPoints": 3861,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7a3238e5264a4dc8858b3d2997706014",
+      "name": "MR_SUBROZA",
+      "rankPoints": 3454,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.406e7870a8ee43ee8e8eb4ab98ebd7bc",
+      "name": "BLACK-_SHADOW",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bb55443116594a42b30c0e7f1853e176",
+      "name": "Teosz_TaszTeFasz",
+      "rankPoints": 3428,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3655c83c682f4ffdbd475cf984f35dbd",
+      "name": "sarubara",
+      "rankPoints": 3496,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.943debb6aadf46d09758889038a6f502",
+      "name": "1skape",
+      "rankPoints": 3472,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.12c135349b40407aa52086d199e81886",
+      "name": "Ulveeen",
+      "rankPoints": 3461,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e223a98bc5844b8db9494d1da015a11a",
+      "name": "MAFIAA--",
+      "rankPoints": 3420,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a864199f3e6c46508655279a7049eebb",
+      "name": "ImRua",
+      "rankPoints": 3415,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1f3b009618e247e8949386fab230d5d4",
+      "name": "AKA-K_K",
+      "rankPoints": 3572,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bad262d8e34748c8a4107cc4d1491e5f",
+      "name": "xFuNNkey",
+      "rankPoints": 3444,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0ba30cce5e64438bad99463f69002199",
+      "name": "DONATELLLOOOO",
+      "rankPoints": 3416,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.af5151bd9862440c83845e4afb05ce82",
+      "name": "Carlo1997-",
+      "rankPoints": 3906,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.53adc3cd30ba435eb3f0c8cc0b7c2a2e",
+      "name": "Al3akeD-_-",
+      "rankPoints": 3784,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e101ffc4a1bb480bb6927e39c621d26d",
+      "name": "5Y3Ar1M",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4d6ae8581ce14adbaa974f9e7cd02d3e",
+      "name": "Snyler1",
+      "rankPoints": 3428,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a10e16a36f924d5fbedc0c10be6963bf",
+      "name": "GentIe-0179",
+      "rankPoints": 4315,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ef9b7c2baf084c4abcbecfaa7c07f1ca",
+      "name": "kick-matrixx94",
+      "rankPoints": 3586,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f62ff74ee3114a4bac3195511f842abe",
+      "name": "AyarVerenPluSS",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.41eb4353f103472d935de793cdd91b5b",
+      "name": "Fakezin",
+      "rankPoints": 4784,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2d0d5b6a122b47e7ba347dfe0730e459",
+      "name": "soldzzzz93",
+      "rankPoints": 4614,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6a6934dcbebd41e98687da356ecfc669",
+      "name": "L0ndoN-",
+      "rankPoints": 4565,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4cf303b93fce4b7f9aef747b6b2c5404",
+      "name": "AHaaaaaaaaaaaaai",
+      "rankPoints": 4196,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b2763f8fbbea44ba9e590d7e06512e92",
+      "name": "Zen_bingo",
+      "rankPoints": 4169,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2b9acd9a03de4380abc3601aca1405fc",
+      "name": "plaasjapie",
+      "rankPoints": 3635,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b39f32832aec4e4bb46dd43e5b12f309",
+      "name": "PITBULL_DURANDA",
+      "rankPoints": 3463,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1654f56da4d74ca7813fed9464a7d485",
+      "name": "NianJiu_-_-",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.198bb0f996754dc5b959b87bcd16ea82",
+      "name": "KICK_C4-Brown",
+      "rankPoints": 4202,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d27301e20dd649ecb584abe0e49e4045",
+      "name": "LeonidasKickTV",
+      "rankPoints": 3812,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.48f46894fc8c4e1992cc4a2cb753216b",
+      "name": "WuHuSiHai_Mjian",
+      "rankPoints": 3522,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.fd4b0f31d1c84861b5867525d401cd74",
+      "name": "Xx-J_O_K_E_R-xX",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2c9c46ad6caf47e68202e09ef64c3ebc",
+      "name": "HeyPandaOvO",
+      "rankPoints": 3571,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6995a5d976db46ee92ad6c2e9ba04410",
+      "name": "SMii-",
+      "rankPoints": 3491,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.168820260b8f4acdae5464bc0a3cbc62",
+      "name": "GINK---ARABS___D",
+      "rankPoints": 3428,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c9e78d2bd798492d827fad7870110354",
+      "name": "TheVeteran98",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.522fd0a301834ed8996dea88da18fd12",
+      "name": "feitanxzol",
+      "rankPoints": 3492,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1ee58fb610be486588542d5bd1121137",
+      "name": "Ter_66666",
+      "rankPoints": 3460,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1690240a2ae34476b38e7547dd2fb306",
+      "name": "Freech-",
+      "rankPoints": 3455,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9847b74095be44bc995fbb23de6d6173",
+      "name": "frenchyFPS",
+      "rankPoints": 3423,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7bc8fe6a1fa14a5f8c025474b85a88d9",
+      "name": "VNCRD",
+      "rankPoints": 4184,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.742fc28be27544eeab92d63494b6650b",
+      "name": "Xenoo2k",
+      "rankPoints": 4638,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c732870802434360a76911a3e73fcd3e",
+      "name": "RICAOZ",
+      "rankPoints": 3911,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.21e26a3586d54675b78f59b08a2b9fd7",
+      "name": "Iyoku-",
+      "rankPoints": 3717,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2da799c413764d23a35fb7fe5850c194",
+      "name": "8ililoo",
+      "rankPoints": 3457,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e7a4cee6eef642df972332965761705c",
+      "name": "i66Baby_",
+      "rankPoints": 3434,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.904f7c0d31194fc0804f28c216d4b839",
+      "name": "iS_T_E_V_E",
+      "rankPoints": 3433,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e51ffdfeebd646bc842f18515e996fb3",
+      "name": "Hamoudi-_-H7",
+      "rankPoints": 3709,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d83aa44d9a894d6ebcfa8af706dc75c5",
+      "name": "JIan-Jlan-666",
+      "rankPoints": 3588,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d65d3b7aed644761a6885412bd82eb4a",
+      "name": "WeiLongLaTia0",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bbf20af710a544a1a4a56065f7e3627e",
+      "name": "greyrock_",
+      "rankPoints": 3539,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.546ddd45ff1c4cca9ad241c70de2330c",
+      "name": "kantiks",
+      "rankPoints": 3524,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.916887135f144e398f836b1094842374",
+      "name": "oMegalos-A1vanos",
+      "rankPoints": 3522,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9474b4eb838a4eca984d905bd222d6e1",
+      "name": "mesonyxtios",
+      "rankPoints": 3456,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ebbc12563728406282b6d68e445d4346",
+      "name": "Baby_-six",
+      "rankPoints": 3548,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.1de61cb4628f435d87c86878806f2cb2",
+      "name": "Nyrox_-",
+      "rankPoints": 3511,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8f3492a34fb14170863777a0059a0fe5",
+      "name": "XTekk007",
+      "rankPoints": 3491,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9200d7e3f6b149eb8d5cb39093b99c17",
+      "name": "ACAROV",
+      "rankPoints": 3452,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e180abdd19c746e6b9bfe0936a4cec81",
+      "name": "VeTr1x-",
+      "rankPoints": 3465,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.75d432143af64540b124bf7073660f44",
+      "name": "Guinnii",
+      "rankPoints": 3455,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a2b3f1b0fbbd4c2a834ecaa4525a679c",
+      "name": "BOLT_333",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.154fcddeeec2450a9b0058802d94d323",
+      "name": "Rov3x",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d0f942e0a86f4af8ac82e0cb4e4a2fc8",
+      "name": "Mili1nho_-",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c45b4a615dec45e087a97f5525b0f8ba",
+      "name": "Yu_D93",
+      "rankPoints": 3617,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f5350d10b53f4e88bd97880cbcefe742",
+      "name": "A-RAAK",
+      "rankPoints": 3505,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b4f7842b2071443eb880be2cbc1f5bbc",
+      "name": "xSancheZ-",
+      "rankPoints": 3420,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.69bad4c341c64dc19cbdc42d53392fac",
+      "name": "Tommibob",
+      "rankPoints": 3753,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.228cc484f8114d7a9775bec4bcf41406",
+      "name": "sxntastico",
+      "rankPoints": 3634,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0d5273728f2a49bd95a92d183534d241",
+      "name": "BTR-YITIAN",
+      "rankPoints": 3536,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.360c7406661e45db8f737c7708c4c4e2",
+      "name": "renaTin_macradin",
+      "rankPoints": 3499,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ff93fa78e6504b8a9896ce88a73ff7a3",
+      "name": "36D-Bigbra168",
+      "rankPoints": 3422,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e6cf2e3d601347168182bf591afa13a2",
+      "name": "Target1Destroyed",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.598623c75e6e478090f4df1b39021a12",
+      "name": "soukera",
+      "rankPoints": 4272,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bddaf051ea784ca4ba2487528f755ca4",
+      "name": "DocFIX",
+      "rankPoints": 3683,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c1195c3865a3460d8bfbaf818e791edf",
+      "name": "ANTHONY_ARAUJ0",
+      "rankPoints": 3601,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8c210c75db2341148bad54a312d0bc1b",
+      "name": "KELLA_YT",
+      "rankPoints": 3479,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dc1a033e718443b8a9429a885fdda20c",
+      "name": "pet_ann_pet",
+      "rankPoints": 3460,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.41a26f0e298e4361aed569c95a1fcee7",
+      "name": "garas1k",
+      "rankPoints": 3452,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.aa0b7d61bf114397b7c274c64be8023b",
+      "name": "kekezi__",
+      "rankPoints": 3447,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8e34ba9c3ed548878f68b10ec4bc1fb0",
+      "name": "IshKtan",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ef86944183eb43419d28d571828407a5",
+      "name": "Looooooopp",
+      "rankPoints": 3574,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9753502871494db9848c3b3779e53197",
+      "name": "nZs_Pentelho13",
+      "rankPoints": 3569,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.eb3e9548334d4131b63a6bc61c1bb4cd",
+      "name": "Tuetchen_TTV",
+      "rankPoints": 3535,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0f648cedacd94cbbb3798a34925bee62",
+      "name": "CoSo-_-Vi",
+      "rankPoints": 3424,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a276203b778746ab8d1d9beb42ec0c67",
+      "name": "221026i-_",
+      "rankPoints": 3778,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8c0ae37a5f1b40cfb924f2c70ef6dadc",
+      "name": "paupauSENKA",
+      "rankPoints": 3508,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9468727a6a5a46b0bcf48065c4073e4a",
+      "name": "Oumrom",
+      "rankPoints": 3446,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.767f48bb17dc4ceb9553eab6c5a59cf9",
+      "name": "TAHKUCT_74RUS",
+      "rankPoints": 3441,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.36c5b94c26c245a395bf8fc42f0e5d2a",
+      "name": "snovv-",
+      "rankPoints": 3540,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4c15a64065654ed2ae905ee6a36ff22e",
+      "name": "HZB-_-HAIDAR",
+      "rankPoints": 3492,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ba0ac41c6da7444b8c4080131be567ac",
+      "name": "CPT-ADDAY",
+      "rankPoints": 3450,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.702752518c2c416fa975de42cc992339",
+      "name": "SOUZERA__",
+      "rankPoints": 3423,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b7d860739c1947ed88103e25aae60ec4",
+      "name": "July7th-",
+      "rankPoints": 3416,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7eb4ed7c24a0454ebd7ff4ead3642511",
+      "name": "Hrky_0riginal",
+      "rankPoints": 4354,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2df70d940b644bfe9cb46ceaead96887",
+      "name": "Its-sAiF",
+      "rankPoints": 3707,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dcec79a52b6b4de287707ad9e69226cd",
+      "name": "keeeeeeeeeele",
+      "rankPoints": 3519,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.501ea57dc91d4e53939d10a1777466fd",
+      "name": "Mr_Mjojo",
+      "rankPoints": 3434,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8386a5264e494b04ba426808c37495d5",
+      "name": "NOBODY_MO",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3bf7b949c9f5429894589a54203b2785",
+      "name": "MyJITuBapKa",
+      "rankPoints": 3412,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.00eda3acbc61451ea5b5ec700479bf2f",
+      "name": "Lytn1ch",
+      "rankPoints": 4758,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6c25a8ca7b114efca3b45fe1f426c164",
+      "name": "x_MeL",
+      "rankPoints": 3524,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.555cc292e6cd4632afa91accc4dfa04e",
+      "name": "NY-Sano",
+      "rankPoints": 3421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b628607f0f1f4086a991cf338cfafaf1",
+      "name": "m41kk1",
+      "rankPoints": 3626,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bde3849975304a04899620613a101a84",
+      "name": "SACHA-BOEY",
+      "rankPoints": 3514,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a125126d6da449ee8331790fe41aa621",
+      "name": "Ower2K-",
+      "rankPoints": 3504,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6cb1d65c5cab4bb7b67998c766b0ab6e",
+      "name": "Kleo-",
+      "rankPoints": 3472,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a8ce780a15634e28b0296b17c0ef382d",
+      "name": "Mamos-18CM",
+      "rankPoints": 3414,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7a0e57db446f4bbabf4e1b8d1940ad92",
+      "name": "Zero-OAO-",
+      "rankPoints": 3624,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c6ae0f83ac7248cfb71fdb30418595cb",
+      "name": "D-_-MONIO",
+      "rankPoints": 3595,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d9780cc9e3ec42319dfa360d2f4b9909",
+      "name": "CHIOVOI",
+      "rankPoints": 3491,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.01fbf3d98bf84759952449b0cdabc886",
+      "name": "T-MxXx_",
+      "rankPoints": 4312,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.046d6150e542497e9280fa4063a9c9a7",
+      "name": "C4_ClaWsX_Q8",
+      "rankPoints": 3488,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b41ef17ec96048e0a2ac9f07315178e4",
+      "name": "levi1k",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4d6db654322345e687b81359d59309f5",
+      "name": "Akim-__",
+      "rankPoints": 4019,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.74cb325b30f5475eb2e4ea99a8bdb790",
+      "name": "urmomlikemebtw",
+      "rankPoints": 3631,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3f968492ea07412da3b507112ec2b80d",
+      "name": "qeofio",
+      "rankPoints": 3437,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8b2cd407c7684cf084c99143a6fccc21",
+      "name": "NoFriendOnlyFans",
+      "rankPoints": 3529,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ca8c3f1d63c24d4b96b2bc37864b30ba",
+      "name": "Mimaras_",
+      "rankPoints": 3528,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a3754cbafdb9400ab22d3001e1eaf136",
+      "name": "DeadSoul_-",
+      "rankPoints": 3494,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c5eede36c2eb4863aee1b372d9ae1473",
+      "name": "NIKIx_x",
+      "rankPoints": 3475,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.31d54cf07d364b1c90cd0d07d6b50e2a",
+      "name": "kalesyaa",
+      "rankPoints": 3472,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8c4cde49778a4045a46d640d63497076",
+      "name": "Nonsed-",
+      "rankPoints": 3435,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e7ae664f4d754adcb84110b3e8413592",
+      "name": "Daddy_Wilson",
+      "rankPoints": 3509,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8018d3c185384662a87c201061e924be",
+      "name": "DOECTb",
+      "rankPoints": 3507,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.afc1e71a04d94adebad8c7365fff34dd",
+      "name": "nnamasty",
+      "rankPoints": 3501,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.42a3d012808f47cfbf670e754affde88",
+      "name": "FORBIDDENd-_-b",
+      "rankPoints": 3482,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.306512d2418248cf87c6a0d0e2cb4a46",
+      "name": "Kulbaka",
+      "rankPoints": 3478,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2a352725d52e41a0ba14699702d8458a",
+      "name": "Sp00kie-",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bdcfc28d7ba6426cb8995f8028d868f9",
+      "name": "BeastTPP",
+      "rankPoints": 3661,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bf0f51d1c06147e1900ebe76c27eed55",
+      "name": "AliKhandrooo",
+      "rankPoints": 3563,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a71956a7e9344e95bc107807e7f7dd52",
+      "name": "JAJA_-",
+      "rankPoints": 3439,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5b286eb880e34e30bfffd88e63b85f1d",
+      "name": "Rikkuddddddddddd",
+      "rankPoints": 3421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.882d8c3423a04e46b38b1a0c6c24040a",
+      "name": "BloodSteel-O",
+      "rankPoints": 3970,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e774f2b7cc5e4b07a1b80513ee665410",
+      "name": "44jB1y",
+      "rankPoints": 3604,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cb23489ebfe44049bfd862d5f6f38f6f",
+      "name": "Sanfan_-",
+      "rankPoints": 3521,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.26c53ef0c5044c89aaf8065805b2c02d",
+      "name": "As-Nico",
+      "rankPoints": 3450,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.39721e52895a4dcba80deefb65c42397",
+      "name": "Xx_TrAmAdOl_xX",
+      "rankPoints": 3425,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4397a1cd1e8c4213ad85fcb04a735cb7",
+      "name": "FERMER_UA",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cc34715ffcbf428891a92f8655e54377",
+      "name": "Corpsebag",
+      "rankPoints": 3485,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dbb80b0d08094d55b8ea8a464a904bd1",
+      "name": "1one-RR",
+      "rankPoints": 4485,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8c719a11ad2f423eb963c634ddbd0326",
+      "name": "Georgenjk1",
+      "rankPoints": 3814,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4c5dd77f7a4b4cc68db1c97ba60f58d8",
+      "name": "MmingDDDD_",
+      "rankPoints": 3495,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f9060d8193a44c928bf9c944cbc27cd8",
+      "name": "GEM_F1ccc",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ca725656d76e4c77829f37e33a558afa",
+      "name": "hard2digest",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.114dde9b5c864b88b844563e59439542",
+      "name": "xinalinz",
+      "rankPoints": 3481,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c4a2bf5c28f148b4808a2bd91ad18578",
+      "name": "BaoRist-18M",
+      "rankPoints": 3454,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c92f10284a8d4467a9b7d49856eefa10",
+      "name": "h0lla",
+      "rankPoints": 3436,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8d2041a20f9449819600ed537a25df05",
+      "name": "Kulissimies",
+      "rankPoints": 3448,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.7d5772811d0b4937bea1eafd4859b586",
+      "name": "EmoBoyy2k",
+      "rankPoints": 4857,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e0e78e5d08724425b5cb82e7b0eb4c84",
+      "name": "Bandoz-",
+      "rankPoints": 3641,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c59309ee94fb4291b7ffe23e61f55615",
+      "name": "MaNu___VL",
+      "rankPoints": 3491,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.036aed616a214b4aa60e4be00ac91b8b",
+      "name": "LEONARDO_UA",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.abc59f5105a249239930833ff21411fb",
+      "name": "El-Haco",
+      "rankPoints": 3501,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c1ef0bfb29f3443ab9e9b86c1f4f93a2",
+      "name": "Lady_Boy_Master",
+      "rankPoints": 3425,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3c6e3edaa9ee42f6a5fd03b56434dbd3",
+      "name": "AmAVR1",
+      "rankPoints": 4169,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2a78f7763bda451883f2b1ba173d9bde",
+      "name": "Andresito-_-",
+      "rankPoints": 3737,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4716ae04eee6412681cd3282262e0b94",
+      "name": "baby_36D_",
+      "rankPoints": 3513,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.be642daee48e4c18b7aa1be9971a0b43",
+      "name": "26RaStY84",
+      "rankPoints": 3502,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e072471bdbde4c9bb09c482c8b18b100",
+      "name": "bronn-",
+      "rankPoints": 3478,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.377a50fd4f01421a89bf5066c19ec513",
+      "name": "MASLITOOO",
+      "rankPoints": 3446,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.30686f119744460cb55d8c29487f2b6a",
+      "name": "spk7zin",
+      "rankPoints": 3435,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5fe7280ece3c46ba8678d8784af67c8c",
+      "name": "BiBiGuGuGaGa_",
+      "rankPoints": 3433,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cc95b8fe830942e5a4efac06fef605e7",
+      "name": "Smiling-_-Z",
+      "rankPoints": 3743,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5bf54b162dcd4db88ef86937cbb5ef7f",
+      "name": "Kearndog",
+      "rankPoints": 3437,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b62d84265f1a4599a23aaa31eecef7ad",
+      "name": "QUBENZZZ-",
+      "rankPoints": 3424,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2dcddec0e3454b758c3b8c31ca0938af",
+      "name": "Grqd_Dk",
+      "rankPoints": 3979,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f10d76a8e17e4d71862155375c5af830",
+      "name": "ScolfieldX",
+      "rankPoints": 3513,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3501db7377344f9da3a02a4372af0c7f",
+      "name": "Takesh11ta",
+      "rankPoints": 3502,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.be35b3bf7aa54cb389412cde12df1d90",
+      "name": "BRUTAL-_-PATSHI",
+      "rankPoints": 3501,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ac171ca581354056ba3867c94fdf4672",
+      "name": "13_-Ydd",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0b7ac258a76041e492baca5c98f3e58f",
+      "name": "RoadRagePatient",
+      "rankPoints": 5980,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8dbc3828fc5245ae9472aafba605fef5",
+      "name": "SALAMIPEEK",
+      "rankPoints": 3482,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.84e46491a9814916b2771c9a8b79140d",
+      "name": "mmmmmmmmmmhhhhhh",
+      "rankPoints": 3478,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3e36cdc1835044838c041cd748873643",
+      "name": "Aixrain1997-",
+      "rankPoints": 3435,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bbc7f4da89c9453c9b640c248b5ee32e",
+      "name": "Angel-NL-",
+      "rankPoints": 3433,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3abcaaa569bb4969bf0999be4e9ad5ca",
+      "name": "Shu661",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e20c34b13a3546b893aa30064466171d",
+      "name": "Jain-_",
+      "rankPoints": 3427,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.faed862f1d7247c88ff2748118701df1",
+      "name": "Buddapesht-",
+      "rankPoints": 3509,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.4c86fb0673484419a219f2ded4bebe18",
+      "name": "HACIABI__",
+      "rankPoints": 3466,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a44415a70a184985a274f5f91b53ec5e",
+      "name": "NoVaseline92",
+      "rankPoints": 3449,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.81d3cf8c52084daeb87ca3a9b5d2cf86",
+      "name": "AixYezzi_-",
+      "rankPoints": 3854,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b6ac777b81244a6b8283a2d3d7a86488",
+      "name": "Meet_Snowflake_-",
+      "rankPoints": 3817,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.858ad08d0e3348dcbf30c2edd15bc17d",
+      "name": "Jestinsane",
+      "rankPoints": 3576,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c32a16f8afb04bebb5c24b4575080c9c",
+      "name": "Xxposedd",
+      "rankPoints": 3549,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.68a893dba6074b7bab482acf4e80a529",
+      "name": "ManX1eZoKeY1Ma_",
+      "rankPoints": 3446,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d3ac0779a45140b98df4e0b1be32d90e",
+      "name": "SlimShadyIsCrazy",
+      "rankPoints": 3430,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0003cf5770f54541b712db0a84bdc423",
+      "name": "Chibiterasu_",
+      "rankPoints": 3510,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b56397c03cfd4ab88c89db4927fcaedd",
+      "name": "K_o_r_d_i",
+      "rankPoints": 3490,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9224bd905ca64ba88a561299d2ca17a8",
+      "name": "krks-",
+      "rankPoints": 3590,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2fb60e65341142c085ec654e19ac6bd3",
+      "name": "Baphen",
+      "rankPoints": 3437,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.cc9cfbfba0e24938b8d8bb4185a7fa95",
+      "name": "Agony7-_",
+      "rankPoints": 3426,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6067f8f75a334c12a299370959286cc3",
+      "name": "zLIPEx",
+      "rankPoints": 3625,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.97e6461013934c9f8f91954cad2020fc",
+      "name": "FS_Rex",
+      "rankPoints": 3519,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.dcf3908bc6c14b128bd083f3556d1600",
+      "name": "Tsukuyomi1337-",
+      "rankPoints": 3464,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e7c294354c434f99ba26a5e4e45439a2",
+      "name": "KAROTOpeek",
+      "rankPoints": 3457,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.9b9637718b6d417b9fb378130e4fd4c7",
+      "name": "deiu430i",
+      "rankPoints": 3448,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.899151f268bf4a3f8bd3ab9cb6ab6f72",
+      "name": "AurelioReale",
+      "rankPoints": 3421,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c0df8646f8af4d58919f9bc7253a0f56",
+      "name": "TOU_-KA",
+      "rankPoints": 3510,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.f18b14a3ac0d4e65b145417fcc2aca79",
+      "name": "S7RIKE",
+      "rankPoints": 3454,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.022ac23d425441daaab68f85abd392f5",
+      "name": "Crazy_BUMBLEBEE",
+      "rankPoints": 3416,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5df90d3d42624eaf9eb24e1ac675e91a",
+      "name": "Sutkivonsorjonen",
+      "rankPoints": 3414,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e7d7fd54f90944ee995dbe3fc4169bed",
+      "name": "KURDISH_E-Z-E-L",
+      "rankPoints": 3722,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.eabce46f1e60457f87252751148e5177",
+      "name": "X_-RASH-_X",
+      "rankPoints": 3542,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d94a83338aeb4ad38d91c1bf8e1ad7d1",
+      "name": "BarbieIsBack",
+      "rankPoints": 3422,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.714c39c24e784ca28d1767ba41bd6363",
+      "name": "RYKMAS_UA",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.58e44b2eae0b49829789f19b6adc4c00",
+      "name": "Fachitakrr-",
+      "rankPoints": 3477,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5b9feaa50dfe49ca89228889df69d8be",
+      "name": "BabycuaNau",
+      "rankPoints": 3468,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.ad085c78f24d4574bf0aa502901673b2",
+      "name": "Shaddow92",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.53d211a82d094790aa6d6bb4d92faabf",
+      "name": "YA_DAMBIL_BAMBAS",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.aa7cb54b94c74c18a3887256ec3843af",
+      "name": "ALHAR1RI",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.a96a55b0e6ec4da9828a021669426a99",
+      "name": "Makiintosh",
+      "rankPoints": 3686,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.e313674eae344c05a01f7eb1e255cb35",
+      "name": "Rec4-",
+      "rankPoints": 3564,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.bc7ce04a6b6c45b3bf273ed0abcf77f8",
+      "name": "Z_Triple_Fire",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d52ebd4ef6c74e41870d54f26ddca243",
+      "name": "Youaremylife_99",
+      "rankPoints": 3485,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.87c509539b654b2ab3913697c2648ae6",
+      "name": "xGhost_-",
+      "rankPoints": 3959,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.635feef311564d0fa9a4034c52f9355d",
+      "name": "nukser",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.8e8e10d3ae1c43e4b8e0113d57a55660",
+      "name": "Marchel-",
+      "rankPoints": 3652,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.07736a30aaf642b78b0650d981f7447f",
+      "name": "GeorgeDrill",
+      "rankPoints": 3435,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.afa9d1ab04124953bec9b1686552549b",
+      "name": "GamingExperience",
+      "rankPoints": 3417,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.2fb990bf997e49c9be191888637a1700",
+      "name": "MrPunisherTTV",
+      "rankPoints": 3747,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6753f7f757a044f2a4e688a48c637175",
+      "name": "P1NN",
+      "rankPoints": 3524,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.b9fc18c9da2e49e29eb1478c4e42bc23",
+      "name": "NEEWAYYYYYYYYYYY",
+      "rankPoints": 3455,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.c6abdf00960b4254964f3fa254debe39",
+      "name": "Coo_Shiesty",
+      "rankPoints": 3433,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.62f1f5df40ab45dc9000ec7da79d7f09",
+      "name": "J_T_C_N_W",
+      "rankPoints": 3429,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.3136558ceaf548e7b3050650272d03c5",
+      "name": "JussiveTR",
+      "rankPoints": 3415,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.71d7ba360c0c433ab25d8e6a3ff8a7d4",
+      "name": "aiuritu",
+      "rankPoints": 3519,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.fd7843dab9bc4f67918a3d47486bc646",
+      "name": "Soul-_-First",
+      "rankPoints": 3498,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.d9ee81c7920d4577bb355faab96b6598",
+      "name": "Liamand",
+      "rankPoints": 3438,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.76a76c19a19d44199f12af21232e7817",
+      "name": "MRSoundWaveBLR_-",
+      "rankPoints": 3418,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.5c54863999154be6aeec7e30efd52c37",
+      "name": "Lexa_Underground",
+      "rankPoints": 3413,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.00980c330b274da18f6ab583937a2ed3",
+      "name": "w1nG7_",
+      "rankPoints": 3748,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.88705ab4f0234ce5a961f82fc42f490f",
+      "name": "Kylo77",
+      "rankPoints": 3527,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.359f968b5abe4c0c9010078dabd651a4",
+      "name": "Werzic_TwitchTV",
+      "rankPoints": 3419,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.0f290d7d2da845058dbf6dc22076f9d1",
+      "name": "SII3ZzZ",
+      "rankPoints": 3551,
+      "tier": "",
+      "subTier": ""
+    },
+    {
+      "id": "account.6e517cac2ac54c5cbbd8a8ec76eb49da",
+      "name": "vv7Z",
+      "rankPoints": 3453,
+      "tier": "",
+      "subTier": ""
+    }
+  ]
+}
