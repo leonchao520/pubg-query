@@ -10,6 +10,7 @@ const router = useRouter()
 const searchQuery = ref('')
 const playerData = ref<any>(null)
 const seasonData = ref<any>(null)
+const rankedData = ref<any>(null)
 const matchIds = ref<string[]>([])
 const loading = ref(false)
 const error = ref('')
@@ -41,6 +42,7 @@ async function doSearch() {
   error.value = ''
   playerData.value = null
   seasonData.value = null
+  rankedData.value = null
   matchIds.value = []
 
   try {
@@ -48,6 +50,7 @@ async function doSearch() {
     playerData.value = result.player
     saveToHistory(searchQuery.value)
     seasonData.value = result.season
+    rankedData.value = result.ranked
     matchIds.value = result.matchIds || []
     steamBan.value = result.steam?.bans || null
     steamUser.value = result.steam?.user || null

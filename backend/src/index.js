@@ -266,11 +266,20 @@ app.get('/api/player/:name/full', async (req, res) => {
     const currentSeason = await getCurrentSeason(platform);
 
     const seasonCacheKey = `season:${platform}:${playerId}:${currentSeason}`;
-    const seasonData = await pubgFetch(
-      `${PUBG_API_BASE}/shards/${platform}/players/${playerId}/seasons/${currentSeason}`,
-      seasonCacheKey,
-      600
-    );
+    const rankedCacheKey = `ranked:${platform}:${playerId}:${currentSeason}`;
+    
+    const [seasonData, rankedData] = await Promise.all([
+      pubgFetch(
+        `${PUBG_API_BASE}/shards/${platform}/players/${playerId}/seasons/${currentSeason}`,
+        seasonCacheKey,
+        600
+      ).catch(() => null),
+      pubgFetch(
+        `${PUBG_API_BASE}/shards/${platform}/players/${playerId}/seasons/${currentSeason}/ranked`,
+        rankedCacheKey,
+        600
+      ).catch(() => null)
+    ]);
 
     // 并行查询所有扩展数据
     const [clanData, survivalMastery, weaponMastery, steamData] = await Promise.all([
@@ -349,7 +358,7 @@ app.get('/api/player/:name/full', async (req, res) => {
     setImmediate(() => {
       try {
         db.saveSnapshot(req.params.name, platform, {
-          player, season: seasonData, banType: player.attributes?.banType,
+          player, season: seasonData, ranked: rankedData, banType: player.attributes?.banType,
           steam: steamData
         });
       } catch (e) {
@@ -373,6 +382,7 @@ app.get('/api/player/:name/full', async (req, res) => {
     res.json({ success: true, data: {
       player,
       season: seasonData,
+      ranked: rankedData,
       seasonId: currentSeason,
       matchIds: allMatchIds.slice(0, 20),
       clan: clanData?.data || null,

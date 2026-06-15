@@ -292,6 +292,24 @@ const topWR = computed(() => {
   return list[0] || null
 })
 
+// 计算段位分布
+const tierDistribution = computed(() => {
+  const dist: Record<string, number> = {}
+  for (const p of players.value) {
+    const t = p.stats.tier || 'Unknown'
+    dist[t] = (dist[t] || 0) + 1
+  }
+  const total = players.value.length
+  return TIER_ORDER.map(t => {
+    const count = dist[t] || 0
+    return {
+      tier: t,
+      count,
+      percentage: total > 0 ? ((count / total) * 100).toFixed(1) : '0.0'
+    }
+  }).filter(d => d.count > 0)
+})
+
 // ── Tier helpers ──
 function insigniaUrl(tier: string): string {
   if (!tier) return ''
@@ -687,6 +705,30 @@ function avgRank(r: number | undefined): string {
 
     <!-- ════════════════ Data Dashboard ════════════════ -->
     <div class="lb-dashboard">
+      <!-- Tier Distribution Chart -->
+      <section v-if="tierDistribution.length > 0 && !loading" class="lb-dash-section lb-dash-tiers" style="margin-bottom: 24px;">
+        <h3 class="lb-dash-heading">
+          <svg class="lb-dash-heading-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+          段位人数分布 (Top 500)
+        </h3>
+        <div class="lb-tiers-dist-card glass" style="padding: 24px;">
+          <div class="dist-bars" style="display: flex; flex-direction: column; gap: 16px;">
+            <div v-for="d in tierDistribution" :key="d.tier" class="dist-item" style="display: flex; align-items: center; gap: 12px;">
+              <img :src="insigniaUrl(d.tier)" :alt="d.tier" style="width: 32px; height: 32px; object-fit: contain;" />
+              <div class="dist-info" style="width: 120px; font-weight: 600; color: #fff;">
+                {{ tierLabel(d.tier) }}
+              </div>
+              <div class="dist-progress-wrap" style="flex: 1; background: rgba(255,255,255,0.05); height: 10px; border-radius: 5px; overflow: hidden; position: relative;">
+                <div class="dist-progress-bar" :style="{ width: d.percentage + '%', background: tierColorHex(d.tier) }" style="height: 100%; border-radius: 5px; transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);"></div>
+              </div>
+              <div class="dist-value" style="width: 100px; text-align: right; color: var(--text-muted); font-size: 13px;">
+                <span style="color: #fff; font-weight: 600; margin-right: 4px;">{{ d.count }}</span> 占 {{ d.percentage }}%
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Tier Showcase -->
       <section class="lb-dash-section lb-dash-tiers">
         <h3 class="lb-dash-heading">
